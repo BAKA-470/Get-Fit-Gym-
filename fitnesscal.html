@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- Logo box -->
+        <div class="left">
+            <img src="logo.jpg" alt="LOGO">
+            <div>Get Fit Gym</div>
+        </div>
+        <!-- Nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a> </li>
+                <li><a href="aboutus.html">About Us </a> </li>
+                <li><a href="#" class="active">Fitness Calculator</a> </li>
+                <li><a href="contact.html">Contact Us</a> </li>
+            </ul>
+        </div>
+        <!-- Buttons -->
+        <div class="right">
+            <button class="btn">Instagram</button>
+
+        </div>
+    </header>
+    <div class="bmi">
+        <h2>BMI </h2>
+        <p> Fitness is often calculated using BMI i.e Body Mass Index, all we need is the height and weight of the person whose BMI is to be calculated.</p>
+    </div>
+    <div class="container3">
+        <h2>BMI calculator</h2>
+        <form>
+            <div class="form-bmi">
+                <label for="weight">Weight:</label>
+                <input type="text" placeholder="In Kgs" id="weight">
+                <label for="height">Height:&nbsp;</label>
+                <input type="text" placeholder="In Meters" id="height">
+
+            </div>
+            <button type="button" class="btn" onclick="calculateBmi()">Calculate</button>
+            <div id="result">Result: </div>
+        </form>
+    </div>
+    <script src="bmi.js"></script>
+</body>
+
+</html>

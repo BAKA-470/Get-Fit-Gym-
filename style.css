@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('gym.jpg');
+    color: white;
+    font-family: Poppins;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 90px;
+    height: 70px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 16px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    margin: 0px;
+    color: white;
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(63, 60, 60);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 100px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 25px;
+    filter: blur('gym.jpg');
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 99%;
+    margin: 20px auto;
+}
+
+.card1 {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 100px 80px;
+    height: 170px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card1 h2,
+.card2 h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.card2 {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 100px 80px;
+    height: 300px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.bmi h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bmi {
+    text-align: center;
+}
+
+.container3 {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 100px 32%;
+    padding: 20px;
+    width: 33%;
+}
+
+.container3 h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.form-bmi input {
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.form-bmi label {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.container3 button {
+    display: block;
+    width: 99%;
+    margin: 20px auto;
+}
